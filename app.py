@@ -4,6 +4,7 @@
 # print(n%m)
 
 
+
 #1330 두 수 비교하기
 # A, B = map(int, input().split())
 # if(A>B):
@@ -14,6 +15,7 @@
 # 	print('==')
 
 
+
 #1809 moo
 # "(___)
 # (o o)____/
@@ -21,6 +23,8 @@
 #   \\ ____,/
 #   //   //
 #  ^^   ^^"
+
+
 
 #2338 긴자리계산
 # a = int(input("enter first number:"))
@@ -33,33 +37,36 @@
 
 # cal(a,b)
 
-#2393 rook
-# print("  ___  ___  ___")
-# print("  | |__| |__| |")
-# print("  |           |")
-# print("   \\_________/")
-# print("    \\_______/")
-# print("     |     |")
-# print("     |     |")
-# print("     |     |")
-# print("     |     |")
-# print("     |_____|")
-# print("  __/       \__")
-# print(" /             \\")
-# print("/_______________\\")
+
+
+#2420 사파리월드
+# a, b = map(int, input().split())
+# print(abs(a-b))
+
+
 
 #2438 별찍기
-n = int(input())
-for i in range(n):
-    for j in range(i+1):
-        print("*", end="")
-    print("")
+# n = int(input())
+# for i in range(n):
+#     for j in range(i+1):
+#         print("*", end="")
+#     print()
+
+#더 직관적인 방법:
+# n = int(input())
+# for i in range(1, n+1):
+#     print("*" * i)
 
 
 
+#2475 검증수
+# a, b ,c, d, e = map(int, input().split())
+# p = pow(a, 2) + pow(b, 2) + pow(c, 2) + pow(d, 2) + pow(e, 2)
+# r = p % 10
+# print(r)
 
-
-
-
-
-
+#혹은 더 짧은 코드:
+r = 0
+for i in map(int, input().split()):
+    r += i**2
+print(r % 10)
