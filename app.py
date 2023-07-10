@@ -66,7 +66,53 @@
 # print(r)
 
 #혹은 더 짧은 코드:
-r = 0
-for i in map(int, input().split()):
-    r += i**2
-print(r % 10)
+# r = 0
+# for i in map(int, input().split()):
+#     r += i**2
+# print(r % 10)
+
+
+
+#2558 A+B
+# a = int(input())
+# b = int(input())
+# print(a+b)
+
+
+
+#2739 구구단
+# a = int(input())
+# result = 0
+# for i in range(1, 10):
+#     print(f"{a} * {i} = {(a * i)}")
+
+
+
+#2741 N찍기
+# a = int(input())
+# for i in range(1, a+1):
+#     print(i)
+
+
+
+#2743 단어 길이 재기
+# a = input()
+# print(len(a))
+
+
+
+#2744 대소문자 바꾸기
+# a = input()
+# print(a.swapcase)
+
+
+
+#2753 윤년
+i = int(input())
+if((i % 4) == 0):
+    if((i % 100) != 0 ) or ((i % 400) == 0):
+        print("1")
+    else:
+        print('0')
+else:
+    print('0')
