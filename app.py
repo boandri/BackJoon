@@ -126,7 +126,21 @@
 
 
 #3003 킹, 퀸, 룩, 비숍, 나이트, 폰
-num_of_pieces = [1, 1, 2, 2, 2, 8]
-inp = list(map(int, input().split()))
-for i in range(6):
-    print(num_of_pieces[i]-inp[i], end=" ")
+# num_of_pieces = [1, 1, 2, 2, 2, 8]
+# inp = list(map(int, input().split()))
+# for i in range(6):
+#     print(num_of_pieces[i]-inp[i], end=" ")
+
+
+
+#4101 크냐?
+a, b = map(int, input().split())
+while True:
+    if(a == 0) and (b == 0):
+        break
+    elif(a > b):
+        print("Yes")
+        a, b = map(int, input().split())
+    else:
+        print("No")
+        a, b = map(int, input().split())
