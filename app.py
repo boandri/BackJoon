@@ -108,11 +108,25 @@
 
 
 #2753 윤년
-i = int(input())
-if((i % 4) == 0):
-    if((i % 100) != 0 ) or ((i % 400) == 0):
-        print("1")
-    else:
-        print('0')
-else:
-    print('0')
+# i = int(input())
+# if((i % 4) == 0):
+#     if((i % 100) != 0 ) or ((i % 400) == 0):
+#         print("1")
+#     else:
+#         print('0')
+# else:
+#     print('0')
+
+
+
+#2754 학점계산
+# grade = {'A+': 4.3, 'A0': 4.0, 'A-': 3.7, 'B+': 3.3, 'B0': 3.0, 'B-': 2.7, 'C+': 2.3, 'C0': 2.0, 'C-': 1.7, 'D+': 1.3, 'D0': 1.0, 'D-': 0.7, 'F': 0.0}
+# print(grade[input()])
+
+
+
+#3003 킹, 퀸, 룩, 비숍, 나이트, 폰
+num_of_pieces = [1, 1, 2, 2, 2, 8]
+inp = list(map(int, input().split()))
+for i in range(6):
+    print(num_of_pieces[i]-inp[i], end=" ")
