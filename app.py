@@ -134,13 +134,58 @@
 
 
 #4101 크냐?
-a, b = map(int, input().split())
-while True:
-    if(a == 0) and (b == 0):
-        break
-    elif(a > b):
-        print("Yes")
-        a, b = map(int, input().split())
-    else:
-        print("No")
-        a, b = map(int, input().split())
+# a, b = map(int, input().split())
+# while True:
+#     if(a == 0) and (b == 0):
+#         break
+#     elif(a > b):
+#         print("Yes")
+#         a, b = map(int, input().split())
+#     else:
+#         print("No")
+#         a, b = map(int, input().split())
+
+
+#4999 아!
+# jay =  input()
+# doc = input()
+# # if(len(jay) >= len(doc)):
+# #     print('go')
+# # else:
+# #     print('no')
+# print('go' if len(jay) >= len(doc) else "no")
+
+
+
+# #5337 welcome
+# print('.  .   .')
+# print('|  | _ | _. _ ._ _  _')
+# print('|/\|(/.|(_.(_)[ | )(/.')
+
+
+
+#5338 microsoft logo
+# print("""       _.-;;-._
+# '-..-'|   ||   |
+# '-..-'|_.-;;-._|
+# '-..-'|   ||   |
+# '-..-'|_.-''-._|""")
+
+
+
+# #5522 card game
+# r = 0
+# for i in range(5):
+#     r += int(input())
+# print(r)
+
+
+
+#5597 과제 안내신분?
+# students = list(range(1,31))
+# a = list()
+# for i in range(28):
+#     students.remove(int(input()))
+# print(min(students))
+# print(max(students))
+
