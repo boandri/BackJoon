@@ -221,8 +221,25 @@
 
 
 #10430 나머지
-a, b, c = map(int, input().split())
-print((a+b)%c)
-print(((a%c) + (b%c))%c)
-print((a * b)%c)
-print(((a%c) * (b%c))%c)
+# a, b, c = map(int, input().split())
+# print((a+b)%c)
+# print(((a%c) + (b%c))%c)
+# print((a * b)%c)
+# print(((a%c) * (b%c))%c)
+
+
+
+#10718 We love kriii
+# print("강한친구 어쩌고 \n상한친구 어쩌구")
+
+
+
+#10871 X보다 작은 수
+# n, x = map(int, input().split())
+# a = list(map(int, input().split()))
+# b = list()
+# for i in range(n):
+#     if(a[i]< x):
+#         b.append(a[i])
+# for i in range(len(b)):
+#     print(b[i], end=' ')
