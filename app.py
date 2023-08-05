@@ -243,3 +243,8 @@
 #         b.append(a[i])
 # for i in range(len(b)):
 #     print(b[i], end=' ')
+
+
+
+#11654 ascii code
+print(ord(input()))
